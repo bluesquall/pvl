@@ -1,0 +1,14 @@
+The fortran90/95 (.f90) code in this folder was retrieved from the MIT OCW 
+archive for the Fall 2003 class Hydrofoils and Propellers (13.04).
+
+It is used here with permission from the original copyright holder.
+
+affected files:
+    duckmod.mod
+    Forces.f90
+    Pvl.f90
+    Pvlmod.f90
+    Simeqn.f90
+    Splutil1.f90
+    splutil.f90
+    Wrench.f90
