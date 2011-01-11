@@ -11,22 +11,25 @@
 AC_INIT([pvl],
         [0.0.1],
         [M J Stanway m.j.stanway@alum.mit.edu],
-        [pvl}])
+        [pvl])
 AC_CONFIG_AUX_DIR(config)
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE([dist-bzip2])
 
-AC_PROG_CC
-AC_PROG_INSTALL
-AC_AIX
-AC_ISC_POSIX
-AC_MINIX
-AC_STDC_HEADERS
+LF_CONFIGURE_CC
+LF_CONFIGURE_CXX
 AC_PROG_RANLIB
+LF_HOST_TYPE
+dnl LF_PROG_F77_PREFER_F2C_COMPATIBILITY
+dnl LF_PROG_F77_PREFER_NATIVE_VERSION
+dnl LF_PROG_F77
+AC_PROG_FC
+LF_SET_WARNINGS
 
 AC_CONFIG_FILES([
    Makefile
-   README
+   README 
+   fortran/Makefile
    doc/Makefile
    m4/Makefile
    src/Makefile
