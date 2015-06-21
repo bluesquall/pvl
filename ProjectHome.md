@@ -1,0 +1,1 @@
+Example implementation of vortex lattice method for (marine) propeller design. Based on J. E. Kerwin's lecture notes for the MIT class on propellers and hydrofoils.
