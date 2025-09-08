@@ -1,4 +1,7 @@
 
+# PVL output files
+*.PLT
+
 # begin .gitignore for FORTRAN
 
 # Prerequisites
