@@ -43,6 +43,7 @@ principles) refer to [the OpenProp project][openprop].
 _____________
 _____________
 [ocw]: https://ocw.mit.edu 
-[dspace-13.04-2003]: http://dspace.mit.edu/bitstream/handle/1721.1/36898/13-04Fall2003/OcwWeb/Ocean-Engineering/13-04Fall2003/CourseHome/index.htm?sequence=1
-[ocw-2.23-2007]: http://ocw.mit.edu/courses/mechanical-engineering/2-23-hydrofoils-and-propellers-spring-2007/
-[openprop]:  http://openprop.mit.edu
+[dspace-13.04-2003]: https://dspace.mit.edu/bitstream/handle/1721.1/36898/13-04Fall2003/OcwWeb/Ocean-Engineering/13-04Fall2003/CourseHome/index.htm?sequence=1
+[ocw-2.23-2007]: https://ocw.mit.edu/courses/mechanical-engineering/2-23-hydrofoils-and-propellers-spring-2007/
+[openprop]:  https://epps.com/openprop
+[GPLv2]: https://spdx.org/licenses/GPL-2.0.html
