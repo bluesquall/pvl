@@ -1,6 +1,6 @@
 project('pvl', 'fortran', meson_version: '>=0.49')
 
-subdir('fortran')
+subdir('src')
 executable('pvl',
   sources: pvl_sources,
   install: true)
