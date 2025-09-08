@@ -12,9 +12,9 @@ AC_INIT([pvl],
         [0.0.1],
         [M J Stanway m.j.stanway@alum.mit.edu],
         [pvl])
-AC_CONFIG_AUX_DIR(config)
-AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE([dist-bzip2])
+AC_CONFIG_AUX_DIR([.build-aux])
+AC_CONFIG_MACRO_DIRS([.build-aux/m4])
+AM_INIT_AUTOMAKE([subdir-objects no-dist-gzip dist-xz -Wall -Werror foreign])
 
 LF_CONFIGURE_CC
 LF_CONFIGURE_CXX
@@ -28,11 +28,7 @@ LF_SET_WARNINGS
 
 AC_CONFIG_FILES([
    Makefile
-   README 
    fortran/Makefile
-   doc/Makefile
-   m4/Makefile
-   src/Makefile
 ])
 
 AC_OUTPUT

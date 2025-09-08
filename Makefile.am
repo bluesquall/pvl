@@ -8,5 +8,7 @@
 # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-EXTRA_DIST = reconf configure
-SUBDIRS = fortran m4 doc src
+dist_noinst_DATA = README.md
+
+EXTRA_DIST = configure
+SUBDIRS = fortran
