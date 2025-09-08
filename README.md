@@ -4,15 +4,11 @@ This repository provides an example implementation of the Vortex Lattice
 Method (VLM) for marine propeller design. The algorithms are public domain.
 
 ## Install
-This project (currently) builds with GNU Autotools. Follow the same steps
-you normally would for installing. For example, using an out-of-tree build:
+This project uses [`meson`][meson] to build. For example:
 ```
-autoreconf -fi
-mkdir -p /tmp/build/pvl
-pushd /tmp/build/pvl
-$OLDPWD/configure
-make
-sudo make install
+meson setup /tmp/build/pvl
+meson compile -C /tmp/build/pvl
+sudo meson install -C /tmp/build/pvl
 ```
 
 ## Quick-start
@@ -47,3 +43,4 @@ _____________
 [ocw-2.23-2007]: https://ocw.mit.edu/courses/mechanical-engineering/2-23-hydrofoils-and-propellers-spring-2007/
 [openprop]:  https://epps.com/openprop
 [GPLv2]: https://spdx.org/licenses/GPL-2.0.html
+[meson]: https://mesonbuild.com
